@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {   
+    /*
     private bool is_facing_left;
     private bool is_running;
     private bool is_walking;
@@ -13,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 input;
     public LayerMask ground_layer;
     public LayerMask structures_layer;
-    public float move_speed = 4.0f;
+    public float move_speed = 5.0f;
 
     private void Start()
     {
@@ -52,11 +53,12 @@ public class PlayerController : MonoBehaviour
                 is_walking = false;
             }
 
-            move_speed = is_running ? 4.0f : 2.0f;
+            move_speed = is_running ? 5.0f : 2.5f;
         }
         else
         {
             is_running = false;
+            is_walking = false;
         }
     }
 
@@ -86,6 +88,7 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("is_running", is_running);
+        animator.SetBool("is_walking", is_walking);
     }
 
     private void move()
@@ -106,12 +109,13 @@ public class PlayerController : MonoBehaviour
         //if (Physics2D.Raycast(transform.position, target_position - transform.position, (target_position - transform.position).magnitude))
         //    return false;
 
-        if (Physics2D.OverlapCircle(target_position, 0.2f, structures_layer) != null)
+        if (Physics2D.OverlapCircle(target_position, 0.5f, structures_layer) != null)
             return false;
 
-        if (Physics2D.OverlapCircle(target_position, 0.2f, ground_layer) != null)
+        if (Physics2D.OverlapCircle(target_position, 0.5f, ground_layer) != null)
             return false;
         
         return true;
     }
+    */
 }
