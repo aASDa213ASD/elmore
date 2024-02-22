@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerStateIdle : PlayerStateGrounded
 {
-    public PlayerStateIdle(Player player, PlayerStateMachine state_machine, PlayerData data, string animation_flag):
-    base(player, state_machine, data, animation_flag)
+    public PlayerStateIdle(Player player, PlayerStatectl statectl, PlayerData data, string animation_flag):
+    base(player, statectl, data, animation_flag)
     {}
 
     public override void DoChecks()
@@ -30,7 +30,7 @@ public class PlayerStateIdle : PlayerStateGrounded
         base.LogicUpdate();
 
         if (input != Vector2.zero)
-            state_machine.ChangeState(player.state_move);
+            statectl.ChangeState(player.state_move);
     }
 
     public override void PhysicsUpdate()

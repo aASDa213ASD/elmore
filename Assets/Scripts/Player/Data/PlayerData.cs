@@ -9,8 +9,8 @@ public class PlayerData : ScriptableObject
     public float movement_speed = 5.0f;
 
     [Header("Dash State")]
-    public float dash_cooldown  = 0.5f;
-    public float dash_time      = 0.2f;
+    public float dash_cooldown  = 1.0f;
+    public float dash_duration  = 0.2f;
     public float dash_speed     = 15.0f;
     public float ghosting       = 0.5f;
 }

@@ -6,14 +6,14 @@ public class PlayerState
 {
     protected Player             player;
     protected PlayerData         data;
-    protected PlayerStateMachine state_machine;
+    protected PlayerStatectl     statectl;
     protected float              start_time;
     private string               animation_flag;
 
-    public PlayerState(Player player, PlayerStateMachine state_machine, PlayerData data, string animation_flag)
+    public PlayerState(Player player, PlayerStatectl statectl, PlayerData data, string animation_flag)
     {
         this.player         = player;
-        this.state_machine  = state_machine;
+        this.statectl       = statectl;
         this.data           = data;
         this.animation_flag = animation_flag;
     }

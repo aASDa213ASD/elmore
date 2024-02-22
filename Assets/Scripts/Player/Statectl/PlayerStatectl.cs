@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStateMachine
+public class PlayerStatectl
 {
     public PlayerState current_state { get; private set; }
 

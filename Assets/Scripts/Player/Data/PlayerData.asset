@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   movement_speed: 5
-  dash_cooldown: 0.5
-  dash_time: 0.2
+  dash_cooldown: 1
+  dash_duration: 0.2
   dash_speed: 15
   ghosting: 0.5

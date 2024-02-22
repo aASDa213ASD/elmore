@@ -8,8 +8,8 @@ public class PlayerStateGrounded : PlayerState
 
     protected Vector2 input;
 
-    public PlayerStateGrounded(Player player, PlayerStateMachine state_machine, PlayerData data, string animation_flag):
-    base(player, state_machine, data, animation_flag)
+    public PlayerStateGrounded(Player player, PlayerStatectl statectl, PlayerData data, string animation_flag):
+    base(player, statectl, data, animation_flag)
     {
         
     }
@@ -36,8 +36,8 @@ public class PlayerStateGrounded : PlayerState
         input = player.input_handler.movement_input;
         dash_input = player.input_handler.dash_input;
 
-        if (dash_input)
-            state_machine.ChangeState(player.state_dash);
+        if (dash_input && player.state_dash.IsAvailable())
+            statectl.ChangeState(player.state_dash);
     }
 
     public override void PhysicsUpdate()

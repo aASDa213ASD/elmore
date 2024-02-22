@@ -67,15 +67,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateIdle.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Player\StateMachine\Player.cs" />
     <Compile Include="Assets\Scripts\Player\Input\PlayerInputHandler.cs" />
+    <Compile Include="Assets\Scripts\Player\Statectl\PlayerStatectl.cs" />
+    <Compile Include="Assets\Scripts\Player\Statectl\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\Statectl\PlayerState.cs" />
     <Compile Include="Assets\Scripts\Player\States\SuperStates\PlayerStateAbility.cs" />
     <Compile Include="Assets\Scripts\Player\States\SuperStates\PlayerStateGrounded.cs" />
     <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateDash.cs" />
     <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateMove.cs" />
     <Compile Include="Assets\Scripts\Player\Data\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\Player\StateMachine\PlayerState.cs" />
-    <Compile Include="Assets\Scripts\Player\StateMachine\PlayerStateMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

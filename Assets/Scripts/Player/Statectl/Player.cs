@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     private Vector2           velocity_current;
 
     public PlayerInputHandler input_handler     { get; private set; }
-    public PlayerStateMachine state_machine     { get; private set; }
+    public PlayerStatectl     statectl          { get; private set; }
     public Animator           anim              { get; private set; }
     public Rigidbody2D        rigid_body        { get; private set; }
     public PlayerStateIdle    state_idle        { get; private set; }
@@ -24,11 +24,11 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        state_machine = new PlayerStateMachine();
+        statectl = new PlayerStatectl();
 
-        state_idle = new PlayerStateIdle(this, state_machine, data, "idle");
-        state_move = new PlayerStateMove(this, state_machine, data, "move");
-        state_dash = new PlayerStateDash(this, state_machine, data, "dash");
+        state_idle = new PlayerStateIdle(this, statectl, data, "idle");
+        state_move = new PlayerStateMove(this, statectl, data, "move");
+        state_dash = new PlayerStateDash(this, statectl, data, "dash");
     }
 
     private void Start()
@@ -39,17 +39,17 @@ public class Player : MonoBehaviour
         
         facing_direction = true; // 0 -> Left, 1 -> Right;
 
-        state_machine.Initialize(state_idle);
+        statectl.Initialize(state_idle);
     }
 
     private void Update()
     {
-        state_machine.current_state.LogicUpdate();
+        statectl.current_state.LogicUpdate();
     }
 
     private void FixedUpdate()
     {
-        state_machine.current_state.PhysicsUpdate();
+        statectl.current_state.PhysicsUpdate();
     }
 
     private void Flip()
@@ -65,10 +65,6 @@ public class Player : MonoBehaviour
     {   
         velocity.Set(x, y);
         rigid_body.velocity = velocity;
-        //location.x += movement_vector_x * Time.deltaTime;
-        //location.y += movement_vector_y * Time.deltaTime;
-
-        //transform.position = location;
     }
 
     public void Stop()

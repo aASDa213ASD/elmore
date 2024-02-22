@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerStateMove : PlayerStateGrounded
 {
-    public PlayerStateMove(Player player, PlayerStateMachine state_machine, PlayerData data, string animation_flag):
-    base(player, state_machine, data, animation_flag)
+    public PlayerStateMove(Player player, PlayerStatectl statectl, PlayerData data, string animation_flag):
+    base(player, statectl, data, animation_flag)
     {
         
     }
@@ -38,7 +38,7 @@ public class PlayerStateMove : PlayerStateGrounded
             player.Move(data.movement_speed * input.x, data.movement_speed * input.y);
         }
 
-        else state_machine.ChangeState(player.state_idle);
+        else statectl.ChangeState(player.state_idle);
     }
 
     public override void PhysicsUpdate()
