@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public PlayerStateIdle    state_idle        { get; private set; }
     public PlayerStateMove    state_move        { get; private set; }
     public PlayerStateDash    state_dash        { get; private set; }
+    public PlayerStateSit     state_sit         { get; private set; }
     public bool               facing_direction  { get; private set; }
 
     [SerializeField]
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
         state_idle = new PlayerStateIdle(this, statectl, data, "idle");
         state_move = new PlayerStateMove(this, statectl, data, "move");
         state_dash = new PlayerStateDash(this, statectl, data, "dash");
+        state_sit  = new PlayerStateSit(this, statectl, data, "sit");
     }
 
     private void Start()

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerStateAbility : PlayerState
 {
-    protected bool is_cast_finished;
-
     public PlayerStateAbility(Player player, PlayerStatectl statectl, PlayerData data, string animation_flag):
     base(player, statectl, data, animation_flag)
     {
@@ -20,8 +18,6 @@ public class PlayerStateAbility : PlayerState
     public override void Enter()
     {
         base.Enter();
-
-        is_cast_finished = false;
     }
 
     public override void Exit()

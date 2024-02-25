@@ -17,11 +17,18 @@ public class PlayerStateDash : PlayerStateAbility
 
     public override void Enter()
     {
-        base.Enter();
-        
         dash_time_last   = Time.time;
         dash_duration    = data.dash_duration;
-        dash_direction   = player.input_handler.mouse_direction.normalized;
+        
+        // Mouse
+        //dash_direction   = player.input_handler.mouse_direction.normalized;
+
+        // Keyboard
+        dash_direction   = player.input_handler.movement_input.normalized;
+
+        if (dash_direction != Vector2.zero)
+            base.Enter();
+        else statectl.ChangeState(player.state_idle);
     }
 
     public override void Exit()
@@ -40,7 +47,7 @@ public class PlayerStateDash : PlayerStateAbility
             player.TryFlip(dash_direction);
 
             player.Move(data.dash_speed * dash_direction.x, data.dash_speed * dash_direction.y);
-            dash_duration -= Time.deltaTime;;
+            dash_duration -= Time.deltaTime;
         }
         else statectl.ChangeState(player.state_idle);
     }

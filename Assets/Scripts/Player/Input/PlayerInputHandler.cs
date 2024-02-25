@@ -11,6 +11,7 @@ public class PlayerInputHandler : MonoBehaviour
     public Vector2 movement_input   { get; private set; }
     public Vector2 mouse_direction  { get; private set; }
     public bool    dash_input       { get; private set; }
+    public bool    sit_input        { get; private set; }
 
     private void Start()
     {
@@ -29,6 +30,14 @@ public class PlayerInputHandler : MonoBehaviour
             dash_input = true;
         else if (context.canceled)
             dash_input = false;
+    }
+
+    public void OnSitInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+            sit_input = true;
+        else if (context.canceled)
+            sit_input = false;  
     }
 
     public void OnDashDirectionInput(InputAction.CallbackContext context)

@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Player\States\SuperStates\PlayerStateAbility.cs" />
     <Compile Include="Assets\Scripts\Player\States\SuperStates\PlayerStateGrounded.cs" />
     <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateDash.cs" />
+    <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateSit.cs" />
     <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateMove.cs" />
     <Compile Include="Assets\Scripts\Player\Data\PlayerData.cs" />
   </ItemGroup>

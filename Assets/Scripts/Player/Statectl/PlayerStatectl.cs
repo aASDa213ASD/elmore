@@ -14,6 +14,9 @@ public class PlayerStatectl
 
     public void ChangeState(PlayerState new_state)
     {
+        if (current_state == new_state)
+            return;
+        
         current_state.Exit();
         current_state = new_state;
         current_state.Enter();

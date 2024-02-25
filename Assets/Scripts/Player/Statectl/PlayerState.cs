@@ -24,8 +24,6 @@ public class PlayerState
         
         player.anim.SetBool(animation_flag, true);
         start_time = Time.time;
-
-        Debug.Log(animation_flag);
     }
 
     public virtual void Exit()
