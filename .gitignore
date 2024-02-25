@@ -1,0 +1,15 @@
+# ===========================================
+# Unity
+# ===========================================
+/Library/*
+!/Library/StateCache/
+!/Library/LastSceneManagerSetup.txt
+Build/
+Temp/
+Logs/
+UserSettings/
+
+# ===========================================
+# Visual Studio Code
+# ===========================================
+.vscode/
