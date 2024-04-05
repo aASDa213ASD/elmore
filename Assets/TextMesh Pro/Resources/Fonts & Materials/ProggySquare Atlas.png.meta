@@ -1,0 +1,2664 @@
+fileFormatVersion: 2
+guid: b0a4b947743acf949985ec998c1c057f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6781043291347899682
+    second: ProggySquare Atlas_0
+  - first:
+      213: -7607106006927847263
+    second: ProggySquare Atlas_1
+  - first:
+      213: 2921462679535847358
+    second: ProggySquare Atlas_2
+  - first:
+      213: 5126375423610420467
+    second: ProggySquare Atlas_3
+  - first:
+      213: 3125012990351594229
+    second: ProggySquare Atlas_4
+  - first:
+      213: -5989609786386004529
+    second: ProggySquare Atlas_5
+  - first:
+      213: -2566814864180566869
+    second: ProggySquare Atlas_6
+  - first:
+      213: 853732588182715096
+    second: ProggySquare Atlas_7
+  - first:
+      213: -1708109698895750389
+    second: ProggySquare Atlas_8
+  - first:
+      213: 4467306268547017880
+    second: ProggySquare Atlas_9
+  - first:
+      213: -6232470459918569645
+    second: ProggySquare Atlas_10
+  - first:
+      213: 9148069950880796118
+    second: ProggySquare Atlas_11
+  - first:
+      213: -985318971441784274
+    second: ProggySquare Atlas_12
+  - first:
+      213: 8039273063718301997
+    second: ProggySquare Atlas_13
+  - first:
+      213: 1074830304961044633
+    second: ProggySquare Atlas_14
+  - first:
+      213: -2877202873255651583
+    second: ProggySquare Atlas_15
+  - first:
+      213: -7694571824220720073
+    second: ProggySquare Atlas_16
+  - first:
+      213: -8254968979917660863
+    second: ProggySquare Atlas_17
+  - first:
+      213: 4918811649922926687
+    second: ProggySquare Atlas_18
+  - first:
+      213: 43912830377028904
+    second: ProggySquare Atlas_19
+  - first:
+      213: 6684523982063188767
+    second: ProggySquare Atlas_20
+  - first:
+      213: 394322760409109247
+    second: ProggySquare Atlas_21
+  - first:
+      213: 628774027597432180
+    second: ProggySquare Atlas_22
+  - first:
+      213: 3524873949265923878
+    second: ProggySquare Atlas_23
+  - first:
+      213: 7340497158619774975
+    second: ProggySquare Atlas_24
+  - first:
+      213: 3489155409389459604
+    second: ProggySquare Atlas_25
+  - first:
+      213: 103942466435305362
+    second: ProggySquare Atlas_26
+  - first:
+      213: 7150752141483834922
+    second: ProggySquare Atlas_27
+  - first:
+      213: 1313934813225578298
+    second: ProggySquare Atlas_28
+  - first:
+      213: 564608453591503518
+    second: ProggySquare Atlas_29
+  - first:
+      213: 5606983736226721418
+    second: ProggySquare Atlas_30
+  - first:
+      213: -884098625439552910
+    second: ProggySquare Atlas_31
+  - first:
+      213: -4076712512380489239
+    second: ProggySquare Atlas_32
+  - first:
+      213: -2043055162300075461
+    second: ProggySquare Atlas_33
+  - first:
+      213: -8114933423287113330
+    second: ProggySquare Atlas_34
+  - first:
+      213: -8814514562394598176
+    second: ProggySquare Atlas_35
+  - first:
+      213: -2262848245466247349
+    second: ProggySquare Atlas_36
+  - first:
+      213: -8645236286970997057
+    second: ProggySquare Atlas_37
+  - first:
+      213: -4848485080425296679
+    second: ProggySquare Atlas_38
+  - first:
+      213: 4597975783335757258
+    second: ProggySquare Atlas_39
+  - first:
+      213: -320723560816281049
+    second: ProggySquare Atlas_40
+  - first:
+      213: 7994891738199063517
+    second: ProggySquare Atlas_41
+  - first:
+      213: 6944187031058274754
+    second: ProggySquare Atlas_42
+  - first:
+      213: -6556243792685933202
+    second: ProggySquare Atlas_43
+  - first:
+      213: 5278531262868578708
+    second: ProggySquare Atlas_44
+  - first:
+      213: -1886064263783917284
+    second: ProggySquare Atlas_45
+  - first:
+      213: 8422991530137795693
+    second: ProggySquare Atlas_46
+  - first:
+      213: -49418544811382758
+    second: ProggySquare Atlas_47
+  - first:
+      213: 1338876194075582146
+    second: ProggySquare Atlas_48
+  - first:
+      213: -6207002628620498630
+    second: ProggySquare Atlas_49
+  - first:
+      213: -5395354534470246779
+    second: ProggySquare Atlas_50
+  - first:
+      213: -175904923873543034
+    second: ProggySquare Atlas_51
+  - first:
+      213: 4212670606891610128
+    second: ProggySquare Atlas_52
+  - first:
+      213: 2783538785286646697
+    second: ProggySquare Atlas_53
+  - first:
+      213: 2445244296261521017
+    second: ProggySquare Atlas_54
+  - first:
+      213: -2794412798382395932
+    second: ProggySquare Atlas_55
+  - first:
+      213: -3935036833530725296
+    second: ProggySquare Atlas_56
+  - first:
+      213: 218239800216516198
+    second: ProggySquare Atlas_57
+  - first:
+      213: 2375765823876608430
+    second: ProggySquare Atlas_58
+  - first:
+      213: -92003837920453945
+    second: ProggySquare Atlas_59
+  - first:
+      213: 6350446024026987478
+    second: ProggySquare Atlas_60
+  - first:
+      213: 5378945575301143258
+    second: ProggySquare Atlas_61
+  - first:
+      213: 9215141842098871519
+    second: ProggySquare Atlas_62
+  - first:
+      213: -6121944961221617161
+    second: ProggySquare Atlas_63
+  - first:
+      213: -5379660932792047580
+    second: ProggySquare Atlas_64
+  - first:
+      213: 3700139948683514822
+    second: ProggySquare Atlas_65
+  - first:
+      213: -8489672219757588265
+    second: ProggySquare Atlas_66
+  - first:
+      213: -4913040593529230925
+    second: ProggySquare Atlas_67
+  - first:
+      213: 3673528638635474935
+    second: ProggySquare Atlas_68
+  - first:
+      213: -6248762453826423956
+    second: ProggySquare Atlas_69
+  - first:
+      213: 7566932507630771970
+    second: ProggySquare Atlas_70
+  - first:
+      213: 953329382716285832
+    second: ProggySquare Atlas_71
+  - first:
+      213: 1948452580603200429
+    second: ProggySquare Atlas_72
+  - first:
+      213: -5202710801361719474
+    second: ProggySquare Atlas_73
+  - first:
+      213: 7784032075470751656
+    second: ProggySquare Atlas_74
+  - first:
+      213: -8214994384663363525
+    second: ProggySquare Atlas_75
+  - first:
+      213: -5996424508849664431
+    second: ProggySquare Atlas_76
+  - first:
+      213: -5422000322765580162
+    second: ProggySquare Atlas_77
+  - first:
+      213: 1537508871139793038
+    second: ProggySquare Atlas_78
+  - first:
+      213: -6035536939985007835
+    second: ProggySquare Atlas_79
+  - first:
+      213: 2283905543191772223
+    second: ProggySquare Atlas_80
+  - first:
+      213: -5081850346064910819
+    second: ProggySquare Atlas_81
+  - first:
+      213: -3371759569348553569
+    second: ProggySquare Atlas_82
+  - first:
+      213: -6050422330947511227
+    second: ProggySquare Atlas_83
+  - first:
+      213: -730340733753954372
+    second: ProggySquare Atlas_84
+  - first:
+      213: -1093018619176529623
+    second: ProggySquare Atlas_85
+  - first:
+      213: -6278757662379458906
+    second: ProggySquare Atlas_86
+  - first:
+      213: -7674040822946386293
+    second: ProggySquare Atlas_87
+  - first:
+      213: -2450978935509120798
+    second: ProggySquare Atlas_88
+  - first:
+      213: -5277954738994345508
+    second: ProggySquare Atlas_89
+  - first:
+      213: -8315751785445076148
+    second: ProggySquare Atlas_90
+  - first:
+      213: -4720988758500089678
+    second: ProggySquare Atlas_91
+  - first:
+      213: -6521828690249164892
+    second: ProggySquare Atlas_92
+  - first:
+      213: -7592028702974723808
+    second: ProggySquare Atlas_93
+  - first:
+      213: -7288627001958973369
+    second: ProggySquare Atlas_94
+  - first:
+      213: 6497593238463962566
+    second: ProggySquare Atlas_95
+  - first:
+      213: -1875383417775216111
+    second: ProggySquare Atlas_96
+  - first:
+      213: 4773924757044450888
+    second: ProggySquare Atlas_97
+  - first:
+      213: 8668553408122915684
+    second: ProggySquare Atlas_98
+  - first:
+      213: 2235204664216907067
+    second: ProggySquare Atlas_99
+  - first:
+      213: 852313919557645809
+    second: ProggySquare Atlas_100
+  - first:
+      213: 7520405995686165241
+    second: ProggySquare Atlas_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProggySquare Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 494
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225565b22fa1b1e50800000000000000
+      internalID: 6781043291347899682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 449
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0535014612e6690800000000000000
+      internalID: -7607106006927847263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 459
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb78b4614de1b8820800000000000000
+      internalID: 2921462679535847358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 459
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc779d794b842740800000000000000
+      internalID: 5126375423610420467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 454
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f25368f1c64e5b20800000000000000
+      internalID: 3125012990351594229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 449
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5424332a1a0eca0800000000000000
+      internalID: -5989609786386004529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 449
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba423580b77d06cd0800000000000000
+      internalID: -2566814864180566869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 449
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da3ec3044119db00800000000000000
+      internalID: 853732588182715096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 429
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b5bef57439b48e0800000000000000
+      internalID: -1708109698895750389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 429
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cee97e16f0ffd30800000000000000
+      internalID: 4467306268547017880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 379
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f20734321d189a0800000000000000
+      internalID: -6232470459918569645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 424
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddccaad62974fe70800000000000000
+      internalID: 9148069950880796118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 424
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a52ccad917352f0800000000000000
+      internalID: -985318971441784274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 414
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21bb4fe14c319f60800000000000000
+      internalID: 8039273063718301997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 414
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9902709b7709aee00800000000000000
+      internalID: 1074830304961044633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 399
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1071dd81b3f1218d0800000000000000
+      internalID: -2877202873255651583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 394
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734389681b3673590800000000000000
+      internalID: -7694571824220720073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 414
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d93201375707d80800000000000000
+      internalID: -8254968979917660863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 364
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5885b67221234440800000000000000
+      internalID: 4918811649922926687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 354
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d64bf8c720c9000800000000000000
+      internalID: 43912830377028904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 339
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bb473452334cc50800000000000000
+      internalID: 6684523982063188767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 334
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2590d167ae87500800000000000000
+      internalID: 394322760409109247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 369
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475cfee85aad9b800800000000000000
+      internalID: 628774027597432180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 369
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f06086e2edae030800000000000000
+      internalID: 3524873949265923878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 364
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffbb4e264faed560800000000000000
+      internalID: 7340497158619774975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 369
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4989ac6cb58fb6030800000000000000
+      internalID: 3489155409389459604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 309
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f44fc5f17417100800000000000000
+      internalID: 103942466435305362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 299
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ef106bf239c3360800000000000000
+      internalID: 7150752141483834922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 309
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f645840c80c3210800000000000000
+      internalID: 1313934813225578298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 309
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e921189a564e5d700800000000000000
+      internalID: 564608453591503518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 344
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8eaf23400200dd40800000000000000
+      internalID: 5606983736226721418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 339
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aa34cfbfc0bb3f0800000000000000
+      internalID: -884098625439552910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 314
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1bb20c19b9c67c0800000000000000
+      internalID: -4076712512380489239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 319
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32739a872c95a3e0800000000000000
+      internalID: -2043055162300075461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 294
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e609db07f16f80800000000000000
+      internalID: -8114933423287113330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 279
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e456f0f4bd8ca580800000000000000
+      internalID: -8814514562394598176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 274
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f4e54828fb890e0800000000000000
+      internalID: -2262848245466247349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 309
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d6c3c663f50880800000000000000
+      internalID: -8645236286970997057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 299
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc087af188b6bcb0800000000000000
+      internalID: -4848485080425296679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 234
+        width: 17
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac583932d9a4fcf30800000000000000
+      internalID: 4597975783335757258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 229
+        width: 7
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a7276ee9f8c8bf0800000000000000
+      internalID: -320723560816281049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 229
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb7f095daf83fe60800000000000000
+      internalID: 7994891738199063517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 249
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c95a181055be5060800000000000000
+      internalID: 6944187031058274754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 249
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d581cc10b8305a0800000000000000
+      internalID: -6556243792685933202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 264
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491631b773c114940800000000000000
+      internalID: 5278531262868578708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 239
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19d99d7b8a53d5e0800000000000000
+      internalID: -1886064263783917284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 264
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cbcf37b2a74e470800000000000000
+      internalID: 8422991530137795693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 269
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a186337681e605ff0800000000000000
+      internalID: -49418544811382758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 219
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce1a1a0ec4a49210800000000000000
+      internalID: 1338876194075582146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 219
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39c821defb4cd9a0800000000000000
+      internalID: -6207002628620498630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 214
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e9b9ff2a9df15b0800000000000000
+      internalID: -5395354534470246779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 234
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c764a576f0f8df0800000000000000
+      internalID: -175904923873543034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 214
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010f087e899667a30800000000000000
+      internalID: 4212670606891610128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 219
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab688307cd11a620800000000000000
+      internalID: 2783538785286646697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 159
+        width: 17
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ec7b36bb04fe120800000000000000
+      internalID: 2445244296261521017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 159
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edac948d504839d0800000000000000
+      internalID: -2794412798382395932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 189
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cb25f39d0f369c0800000000000000
+      internalID: -3935036833530725296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 189
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666f1c721f7570300800000000000000
+      internalID: 218239800216516198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 204
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1bda1fd6a68f020800000000000000
+      internalID: 2375765823876608430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 179
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca57c23ff229bef0800000000000000
+      internalID: -92003837920453945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db9b634301512850800000000000000
+      internalID: 6350446024026987478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 159
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adadbf9708ad5aa40800000000000000
+      internalID: 5378945575301143258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 154
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc54257ea2c2ef70800000000000000
+      internalID: 9215141842098871519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 174
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f994e34e7b7a0ba0800000000000000
+      internalID: -6121944961221617161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 164
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42822e062ea9755b0800000000000000
+      internalID: -5379660932792047580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 169
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3538cdda9895330800000000000000
+      internalID: 3700139948683514822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 129
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0d8d9a810ae2a80800000000000000
+      internalID: -8489672219757588265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 129
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9ad9f4c9f51dbb0800000000000000
+      internalID: -4913040593529230925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 129
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff771a65defaf230800000000000000
+      internalID: 3673528638635474935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 154
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63b0e5d7afe749a0800000000000000
+      internalID: -6248762453826423956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 129
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f10bc3605230960800000000000000
+      internalID: 7566932507630771970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 84
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8832fbac508ea3d00800000000000000
+      internalID: 953329382716285832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 129
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da30c887c4b4a0b10800000000000000
+      internalID: 1948452580603200429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f2fbf57124cc7b0800000000000000
+      internalID: -5202710801361719474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_74
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 129
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a74eaa5eef660c60800000000000000
+      internalID: 7784032075470751656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_75
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 129
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30cf4ec12a7efd80800000000000000
+      internalID: -8214994384663363525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_76
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 109
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ec19bfdab68cca0800000000000000
+      internalID: -5996424508849664431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_77
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 114
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e781185fe6f21c4b0800000000000000
+      internalID: -5422000322765580162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_78
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 119
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e889c471c24565510800000000000000
+      internalID: 1537508871139793038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 69
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b027771277d3ca0800000000000000
+      internalID: -6035536939985007835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_80
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 69
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cbd7aadff02bf10800000000000000
+      internalID: 2283905543191772223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_81
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 69
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16ea19f804a979b0800000000000000
+      internalID: -5081850346064910819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_82
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 69
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9494f8398a1531d0800000000000000
+      internalID: -3371759569348553569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_83
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 69
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c58ce42f4980ca0800000000000000
+      internalID: -6050422330947511227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_84
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 69
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfe89fd8fe4dd5f0800000000000000
+      internalID: -730340733753954372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_85
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 99
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921581f5b51d4d0f0800000000000000
+      internalID: -1093018619176529623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_86
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 69
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae3c1f1c2f5dd8a0800000000000000
+      internalID: -6278757662379458906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_87
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 69
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e2f64c784508590800000000000000
+      internalID: -7674040822946386293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_88
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8830dd4af5cfdd0800000000000000
+      internalID: -2450978935509120798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_89
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd907a1f020f0c6b0800000000000000
+      internalID: -5277954738994345508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_90
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 64
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43d9345fc3889c80800000000000000
+      internalID: -8315751785445076148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_91
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b06dfcacbdab7eb0800000000000000
+      internalID: -4720988758500089678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 9
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a75fbf3c5fcd75a0800000000000000
+      internalID: -6521828690249164892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_93
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 9
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0293f927e12b3a690800000000000000
+      internalID: -7592028702974723808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_94
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 19
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7404ae7cb5899da90800000000000000
+      internalID: -7288627001958973369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_95
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 9
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cddf99ef961c2a50800000000000000
+      internalID: 6497593238463962566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_96
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 9
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11aa9ddb7bc49f5e0800000000000000
+      internalID: -1875383417775216111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_97
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 9
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846d310f543604240800000000000000
+      internalID: 4773924757044450888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_98
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 9
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b0baf8563ec4870800000000000000
+      internalID: 8668553408122915684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_99
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 9
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3de1faacca050f10800000000000000
+      internalID: 2235204664216907067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_100
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 9
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5ba5c7ef604db00800000000000000
+      internalID: 852313919557645809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProggySquare Atlas_101
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa77938869dd5860800000000000000
+      internalID: 7520405995686165241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ProggySquare Atlas_0: 6781043291347899682
+      ProggySquare Atlas_1: -7607106006927847263
+      ProggySquare Atlas_10: -6232470459918569645
+      ProggySquare Atlas_100: 852313919557645809
+      ProggySquare Atlas_101: 7520405995686165241
+      ProggySquare Atlas_11: 9148069950880796118
+      ProggySquare Atlas_12: -985318971441784274
+      ProggySquare Atlas_13: 8039273063718301997
+      ProggySquare Atlas_14: 1074830304961044633
+      ProggySquare Atlas_15: -2877202873255651583
+      ProggySquare Atlas_16: -7694571824220720073
+      ProggySquare Atlas_17: -8254968979917660863
+      ProggySquare Atlas_18: 4918811649922926687
+      ProggySquare Atlas_19: 43912830377028904
+      ProggySquare Atlas_2: 2921462679535847358
+      ProggySquare Atlas_20: 6684523982063188767
+      ProggySquare Atlas_21: 394322760409109247
+      ProggySquare Atlas_22: 628774027597432180
+      ProggySquare Atlas_23: 3524873949265923878
+      ProggySquare Atlas_24: 7340497158619774975
+      ProggySquare Atlas_25: 3489155409389459604
+      ProggySquare Atlas_26: 103942466435305362
+      ProggySquare Atlas_27: 7150752141483834922
+      ProggySquare Atlas_28: 1313934813225578298
+      ProggySquare Atlas_29: 564608453591503518
+      ProggySquare Atlas_3: 5126375423610420467
+      ProggySquare Atlas_30: 5606983736226721418
+      ProggySquare Atlas_31: -884098625439552910
+      ProggySquare Atlas_32: -4076712512380489239
+      ProggySquare Atlas_33: -2043055162300075461
+      ProggySquare Atlas_34: -8114933423287113330
+      ProggySquare Atlas_35: -8814514562394598176
+      ProggySquare Atlas_36: -2262848245466247349
+      ProggySquare Atlas_37: -8645236286970997057
+      ProggySquare Atlas_38: -4848485080425296679
+      ProggySquare Atlas_39: 4597975783335757258
+      ProggySquare Atlas_4: 3125012990351594229
+      ProggySquare Atlas_40: -320723560816281049
+      ProggySquare Atlas_41: 7994891738199063517
+      ProggySquare Atlas_42: 6944187031058274754
+      ProggySquare Atlas_43: -6556243792685933202
+      ProggySquare Atlas_44: 5278531262868578708
+      ProggySquare Atlas_45: -1886064263783917284
+      ProggySquare Atlas_46: 8422991530137795693
+      ProggySquare Atlas_47: -49418544811382758
+      ProggySquare Atlas_48: 1338876194075582146
+      ProggySquare Atlas_49: -6207002628620498630
+      ProggySquare Atlas_5: -5989609786386004529
+      ProggySquare Atlas_50: -5395354534470246779
+      ProggySquare Atlas_51: -175904923873543034
+      ProggySquare Atlas_52: 4212670606891610128
+      ProggySquare Atlas_53: 2783538785286646697
+      ProggySquare Atlas_54: 2445244296261521017
+      ProggySquare Atlas_55: -2794412798382395932
+      ProggySquare Atlas_56: -3935036833530725296
+      ProggySquare Atlas_57: 218239800216516198
+      ProggySquare Atlas_58: 2375765823876608430
+      ProggySquare Atlas_59: -92003837920453945
+      ProggySquare Atlas_6: -2566814864180566869
+      ProggySquare Atlas_60: 6350446024026987478
+      ProggySquare Atlas_61: 5378945575301143258
+      ProggySquare Atlas_62: 9215141842098871519
+      ProggySquare Atlas_63: -6121944961221617161
+      ProggySquare Atlas_64: -5379660932792047580
+      ProggySquare Atlas_65: 3700139948683514822
+      ProggySquare Atlas_66: -8489672219757588265
+      ProggySquare Atlas_67: -4913040593529230925
+      ProggySquare Atlas_68: 3673528638635474935
+      ProggySquare Atlas_69: -6248762453826423956
+      ProggySquare Atlas_7: 853732588182715096
+      ProggySquare Atlas_70: 7566932507630771970
+      ProggySquare Atlas_71: 953329382716285832
+      ProggySquare Atlas_72: 1948452580603200429
+      ProggySquare Atlas_73: -5202710801361719474
+      ProggySquare Atlas_74: 7784032075470751656
+      ProggySquare Atlas_75: -8214994384663363525
+      ProggySquare Atlas_76: -5996424508849664431
+      ProggySquare Atlas_77: -5422000322765580162
+      ProggySquare Atlas_78: 1537508871139793038
+      ProggySquare Atlas_79: -6035536939985007835
+      ProggySquare Atlas_8: -1708109698895750389
+      ProggySquare Atlas_80: 2283905543191772223
+      ProggySquare Atlas_81: -5081850346064910819
+      ProggySquare Atlas_82: -3371759569348553569
+      ProggySquare Atlas_83: -6050422330947511227
+      ProggySquare Atlas_84: -730340733753954372
+      ProggySquare Atlas_85: -1093018619176529623
+      ProggySquare Atlas_86: -6278757662379458906
+      ProggySquare Atlas_87: -7674040822946386293
+      ProggySquare Atlas_88: -2450978935509120798
+      ProggySquare Atlas_89: -5277954738994345508
+      ProggySquare Atlas_9: 4467306268547017880
+      ProggySquare Atlas_90: -8315751785445076148
+      ProggySquare Atlas_91: -4720988758500089678
+      ProggySquare Atlas_92: -6521828690249164892
+      ProggySquare Atlas_93: -7592028702974723808
+      ProggySquare Atlas_94: -7288627001958973369
+      ProggySquare Atlas_95: 6497593238463962566
+      ProggySquare Atlas_96: -1875383417775216111
+      ProggySquare Atlas_97: 4773924757044450888
+      ProggySquare Atlas_98: 8668553408122915684
+      ProggySquare Atlas_99: 2235204664216907067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

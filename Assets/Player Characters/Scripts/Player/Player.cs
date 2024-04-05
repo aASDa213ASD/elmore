@@ -18,7 +18,14 @@ public class Player : MonoBehaviour
     public PlayerStateMove    state_move    { get; private set; }
     public PlayerStateSit     state_sit     { get; private set; }
     public PlayerInputHandler input_handler { get; private set; }
+
     public bool facing_direction { get; private set; }
+
+    public string character_name { get; private set; }
+    public Color name_color { get; private set; }
+
+    public string character_title { get; private set; }
+    public Color title_color { get; private set; }
 
     [SerializeField]
     private PlayerData data;
@@ -30,6 +37,11 @@ public class Player : MonoBehaviour
         state_idle = new PlayerStateIdle(this, statectl, data, "idle");
         state_move = new PlayerStateMove(this, statectl, data, "move");
         state_sit  = new PlayerStateSit(this, statectl, data, "sit");
+
+        character_name  = data.character_name;
+        character_title = data.character_title;
+        name_color  = data.name_color;
+        title_color = data.title_color;
     }
 
     private void Start()
