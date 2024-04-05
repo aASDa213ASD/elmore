@@ -59,24 +59,22 @@
     <UnityVersion>2023.2.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\wraith\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.4\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\wraith\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="D:\Synthetic\x86_64-Win\Unity\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Synthetic\x86_64-Win\Unity\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="D:\Synthetic\x86_64-Win\Unity\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateIdle.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Player\Input\PlayerInputHandler.cs" />
-    <Compile Include="Assets\Scripts\Player\Statectl\PlayerStatectl.cs" />
-    <Compile Include="Assets\Scripts\Player\Statectl\Player.cs" />
-    <Compile Include="Assets\Scripts\Player\Statectl\PlayerState.cs" />
-    <Compile Include="Assets\Scripts\Player\States\SuperStates\PlayerStateAbility.cs" />
-    <Compile Include="Assets\Scripts\Player\States\SuperStates\PlayerStateGrounded.cs" />
-    <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateDash.cs" />
-    <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateSit.cs" />
-    <Compile Include="Assets\Scripts\Player\States\SubStates\PlayerStateMove.cs" />
-    <Compile Include="Assets\Scripts\Player\Data\PlayerData.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\States\SuperStates\PlayerStateAbility.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\Data\PlayerData.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\PlayerStatectl.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\States\SubStates\PlayerStateSit.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\States\SubStates\PlayerStateIdle.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\PlayerState.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\States\SubStates\PlayerStateMove.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\Input\PlayerInputHandler.cs" />
+    <Compile Include="Assets\Player Characters\Scripts\Player\States\SuperStates\PlayerStateGrounded.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
