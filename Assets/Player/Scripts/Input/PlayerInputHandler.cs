@@ -41,7 +41,8 @@ public class PlayerInputHandler : MonoBehaviour
                     }
                     else
                     {
-                        movement_location = creature.transform.position;
+                        if (creature != player)
+                            movement_location = creature.transform.position;
                     }
                 }
             }
@@ -62,7 +63,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (player.GetTarget())
             player.ResetTarget();
     }
-    
+
     public void OnSitInput(InputAction.CallbackContext context)
     {
         if (context.started)
