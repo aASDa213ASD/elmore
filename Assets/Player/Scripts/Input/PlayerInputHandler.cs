@@ -62,6 +62,9 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (player.GetTarget())
             player.ResetTarget();
+
+        if (movement_location != player.transform.position)
+            movement_location = player.transform.position;
     }
 
     public void OnSitInput(InputAction.CallbackContext context)

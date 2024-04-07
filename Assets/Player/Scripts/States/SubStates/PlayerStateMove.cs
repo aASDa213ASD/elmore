@@ -48,6 +48,7 @@ public class PlayerStateMove : PlayerStateGrounded
         }
         else
         {
+            player.move_point_indicator.gameObject.SetActive(false);
             statectl.ChangeState(player.state_idle);
         }
     }
