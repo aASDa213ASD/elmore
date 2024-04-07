@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PlayerStateMove : PlayerStateGrounded
 {
-    Vector3 move_point_position;
+    public float destination_reached_distance = 0.1f;
+    public float move_point_dissapear_distance = 0.35f;
+
+    private Vector3 move_point_position;
 
     public PlayerStateMove(Player player, PlayerStatectl statectl, CreatureData data, string animation_flag):
     base(player, statectl, data, animation_flag) {}
@@ -23,7 +26,12 @@ public class PlayerStateMove : PlayerStateGrounded
     {
         base.FrameUpdate();
 
-        if (Vector3.Distance(movement_location, player.transform.position) > 0.01f)
+        if (player.GetTarget() && movement_location == player.GetTarget().transform.position)
+            destination_reached_distance = 0.35f;
+        else
+            destination_reached_distance = 0.1f;
+
+        if (Vector3.Distance(movement_location, player.transform.position) > destination_reached_distance)
         {
             movement_direction = movement_direction.normalized;
 
@@ -40,7 +48,6 @@ public class PlayerStateMove : PlayerStateGrounded
         }
         else
         {
-            player.move_point_indicator.gameObject.SetActive(false);
             statectl.ChangeState(player.state_idle);
         }
     }
@@ -49,7 +56,7 @@ public class PlayerStateMove : PlayerStateGrounded
     {
         base.LastUpdate();
 
-        if (Vector3.Distance(movement_location, player.transform.position) > 0.2f)
+        if ((!player.GetTarget() || player.GetTarget() && movement_location != player.GetTarget().transform.position) && Vector3.Distance(movement_location, player.transform.position) > move_point_dissapear_distance)
         {
             move_point_position = movement_location;
             move_point_position.y -= 0.25f;

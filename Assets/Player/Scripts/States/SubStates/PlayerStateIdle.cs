@@ -11,7 +11,6 @@ public class PlayerStateIdle : PlayerStateGrounded
     {
         base.Enter();
         player.Stop();
-        //player.move_point_indicator.gameObject.SetActive(false);
     }
 
     public override void Exit()
@@ -23,7 +22,7 @@ public class PlayerStateIdle : PlayerStateGrounded
     {
         base.FrameUpdate();
         
-        if (Vector3.Distance(movement_location, player.transform.position) > 0.1f)
+        if (Vector3.Distance(movement_location, player.transform.position) > player.state_move.destination_reached_distance)
             statectl.ChangeState(player.state_move);
     }
 }

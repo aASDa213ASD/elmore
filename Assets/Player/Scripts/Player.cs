@@ -60,6 +60,7 @@ public class Player : MonoBehaviour, ICreature
 
     private void Update()
     {
+        Debug.Log("Target: " + target);
         statectl.current_state.FrameUpdate();
     }
 
@@ -110,5 +111,20 @@ public class Player : MonoBehaviour, ICreature
             // Reset destination to make player stumble upon objects
             input_handler.movement_location = transform.position;
         }
+    }
+
+    public void SetTarget(MonoBehaviour creature)
+    {
+        target = creature;
+    }
+
+    public void ResetTarget()
+    {
+        target = null;
+    }
+
+    public MonoBehaviour GetTarget()
+    {
+        return target;
     }
 }

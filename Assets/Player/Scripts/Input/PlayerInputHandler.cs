@@ -6,11 +6,12 @@ using UnityEngine.UIElements;
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    private Camera cam;
-
+    public Player player;
     public Vector3 movement_location { get; set; }
     public Vector2 mouse_position    { get; private set; }
     public bool    sit_input         { get; private set; }
+
+    private Camera cam;
 
     private void Start()
     {
@@ -19,8 +20,36 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
+        /*
         if (context.started)
             movement_location = cam.ScreenToWorldPoint(mouse_position);
+        */
+
+        if (context.started)
+        {
+            Ray ray = cam.ScreenPointToRay(mouse_position);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, LayerMask.GetMask("Creatures"));
+
+            if (hit.collider != null)
+            {
+                MonoBehaviour creature = hit.collider.GetComponent<MonoBehaviour>();
+                if (creature != null)
+                {
+                    if (player.GetTarget() != creature)
+                    {
+                        player.SetTarget(creature);
+                    }
+                    else
+                    {
+                        movement_location = creature.transform.position;
+                    }
+                }
+            }
+            else
+            {
+                movement_location = cam.ScreenToWorldPoint(mouse_position);
+            }
+        }
     }
 
     public void OnMovePositionInput(InputAction.CallbackContext context)
@@ -28,6 +57,12 @@ public class PlayerInputHandler : MonoBehaviour
         mouse_position = context.ReadValue<Vector2>();
     }
 
+    public void OnCancelInput(InputAction.CallbackContext context)
+    {
+        if (player.GetTarget())
+            player.ResetTarget();
+    }
+    
     public void OnSitInput(InputAction.CallbackContext context)
     {
         if (context.started)
