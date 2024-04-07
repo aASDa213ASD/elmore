@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce10a84c66d502e45805f5f1ff96faf3, type: 3}
-  m_Name: Shea Data
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: DefaultVolumeProfile
   m_EditorClassIdentifier: 
-  creature_name: Shea
-  creature_title: Newbie Guide
-  name_color: {r: 255, g: 255, b: 255, a: 1}
-  title_color: {r: 0.46666667, g: 1, b: 1, a: 1}
-  speed: 100
+  components: []

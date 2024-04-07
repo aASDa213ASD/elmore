@@ -27,6 +27,7 @@ public class PlayerStateMove : PlayerStateGrounded
         {
             movement_direction = movement_direction.normalized;
 
+            player.anim.speed = 1.0f * (data.speed / 100.0f);
             player.anim.SetFloat("direction_x", movement_direction.x);
             player.anim.SetFloat("direction_y", movement_direction.y);
 

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce10a84c66d502e45805f5f1ff96faf3, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: 
-  _character_name: aasda
-  _name_color: {r: 1, g: 1, b: 1, a: 1}
-  _character_title: Master
-  _title_color: {r: 0.46666667, g: 1, b: 1, a: 1}
-  speed: 150
+  creature_name: SakuraBladeRed
+  creature_title: Master
+  name_color: {r: 255, g: 255, b: 255, a: 1}
+  title_color: {r: 0.46666667, g: 1, b: 1, a: 1}
+  speed: 160

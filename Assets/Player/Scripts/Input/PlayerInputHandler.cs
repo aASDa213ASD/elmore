@@ -19,7 +19,8 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
-        movement_location = cam.ScreenToWorldPoint(mouse_position);
+        if (context.started)
+            movement_location = cam.ScreenToWorldPoint(mouse_position);
     }
 
     public void OnMovePositionInput(InputAction.CallbackContext context)

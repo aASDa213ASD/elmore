@@ -20,6 +20,7 @@ public class Folk : MonoBehaviour, ICreature
     public string creature_title { get; set; }
     public Color name_color  { get; set; }
     public Color title_color { get; set; }
+    public MonoBehaviour target { get; set; }
 
     [SerializeField]
     private CreatureData data;

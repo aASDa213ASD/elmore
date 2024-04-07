@@ -9,4 +9,6 @@ public interface ICreature
     string creature_name  { get; set; }
     Color  title_color    { get; set; }
     Color  name_color     { get; set; }
+
+    MonoBehaviour target { get; set; }
 }
