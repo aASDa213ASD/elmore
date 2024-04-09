@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStateMove : PlayerStateGrounded
+public class StateMove : StateGrounded
 {
     public float destination_reached_distance = 0.1f;
     public float move_point_dissapear_distance = 0.35f;
 
     private Vector3 move_point_position;
 
-    public PlayerStateMove(Player player, PlayerStatectl statectl, CreatureData data, string animation_flag):
+    public StateMove(Player player, Statectl statectl, CreatureData data, string animation_flag):
     base(player, statectl, data, animation_flag) {}
 
     public override void Enter()

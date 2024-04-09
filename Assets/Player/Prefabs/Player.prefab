@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5031764017542322772}
   - component: {fileID: 9011289223226229348}
   - component: {fileID: 1752963340751556346}
-  - component: {fileID: 7277408395009955129}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -137,21 +136,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &7277408395009955129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933172099288197947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3408ebf48688fc4e8099db827a1bf10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  title_tag: {fileID: 1752963340751556346}
-  target: {fileID: 2185969845904894052}
-  offset: {x: 0, y: 0.6, z: 0}
 --- !u!1 &1949260994454604217
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01d60514ddeafeb4faa65be100c401fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &2138306937731035725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +516,6 @@ GameObject:
   - component: {fileID: 9190426776667557088}
   - component: {fileID: 7193557127695224379}
   - component: {fileID: 2000087976099010558}
-  - component: {fileID: 1210288923843979881}
   m_Layer: 5
   m_Name: Nametag
   m_TagString: Untagged
@@ -657,18 +641,3 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1210288923843979881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4062476736695625849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9889821014921734484bcba8229c520b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name_tag: {fileID: 2000087976099010558}
-  target: {fileID: 2185969845904894052}
-  offset: {x: 0, y: 0.45, z: 0}

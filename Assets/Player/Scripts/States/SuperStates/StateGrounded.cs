@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStateGrounded : PlayerState
+public class StateGrounded : State
 {
     //protected Vector2 input;
     protected Vector3 movement_location;
@@ -10,7 +10,7 @@ public class PlayerStateGrounded : PlayerState
 
     private bool sit_input;
 
-    public PlayerStateGrounded(Player player, PlayerStatectl statectl, CreatureData data, string animation_flag):
+    public StateGrounded(Player player, Statectl statectl, CreatureData data, string animation_flag):
     base(player, statectl, data, animation_flag) {}
 
     public override void Enter()

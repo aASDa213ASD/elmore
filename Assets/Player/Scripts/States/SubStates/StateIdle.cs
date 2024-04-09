@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStateIdle : PlayerStateGrounded
+public class StateIdle : StateGrounded
 {
-    public PlayerStateIdle(Player player, PlayerStatectl statectl, CreatureData data, string animation_flag):
+    public StateIdle(Player player, Statectl statectl, CreatureData data, string animation_flag):
     base(player, statectl, data, animation_flag) {}
 
     public override void Enter()
     {
         base.Enter();
+        
         player.Stop();
     }
 

@@ -4,13 +4,13 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerStateSit : PlayerStateGrounded
+public class StateSit : StateGrounded
 {   
     private float animation_delay = 2f;
     private float stand_up_time = 0f;
     private float sit_down_time = 0f;
 
-    public PlayerStateSit(Player player, PlayerStatectl statectl, CreatureData data, string animation_flag):
+    public StateSit(Player player, Statectl statectl, CreatureData data, string animation_flag):
     base(player, statectl, data, animation_flag) {}
 
     public override void Enter()

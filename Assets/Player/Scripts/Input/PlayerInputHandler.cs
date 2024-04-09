@@ -60,11 +60,20 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnCancelInput(InputAction.CallbackContext context)
     {
-        if (player.GetTarget())
-            player.ResetTarget();
+        if (context.started)
+        {
+            if (player.GetTarget())
+            {
+                player.ResetTarget();
+                return;
+            }
 
-        if (movement_location != player.transform.position)
-            movement_location = player.transform.position;
+            if (player.statectl.current_state == player.state_move)
+            {
+                movement_location = player.transform.position;
+                return;
+            }
+        }
     }
 
     public void OnSitInput(InputAction.CallbackContext context)

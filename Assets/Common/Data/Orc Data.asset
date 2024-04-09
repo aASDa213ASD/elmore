@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce10a84c66d502e45805f5f1ff96faf3, type: 3}
-  m_Name: Player Data
+  m_Name: Orc Data
   m_EditorClassIdentifier: 
-  creature_name: SakuraBladeRed
-  creature_title: Master
+  creature_name: Orc
+  creature_title: 
   name_color: {r: 255, g: 255, b: 255, a: 1}
-  title_color: {r: 0.46666667, g: 1, b: 1, a: 1}
-  speed: 170
+  title_color: {r: 119, g: 255, b: 255, a: 1}
+  outline_hover_color: {r: 1, g: 1, b: 1, a: 1}
+  outline_target_color: {r: 1, g: 0, b: 0, a: 1}
+  speed: 100
