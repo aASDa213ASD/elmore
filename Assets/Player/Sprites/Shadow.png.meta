@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 41a1bc567fd16f641824e765075f36e0
+guid: d08759a32ff015445bef73b5e069140f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5886957917244008284
-    second: run_front_3_0
+      213: 8511756477071635748
+    second: Shadowy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -98,7 +98,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shadowy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4253c7e2b65df1670800000000000000
+      internalID: 8511756477071635748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -109,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shadowy_0: 8511756477071635748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -16,4 +16,6 @@ MonoBehaviour:
   creature_title: Newbie Guide
   name_color: {r: 255, g: 255, b: 255, a: 1}
   title_color: {r: 0.46666667, g: 1, b: 1, a: 1}
+  outline_hover_color: {r: 1, g: 1, b: 1, a: 1}
+  outline_target_color: {r: 1, g: 0.67, b: 0, a: 1}
   speed: 100

@@ -62,15 +62,15 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.started)
         {
-            if (player.GetTarget())
-            {
-                player.ResetTarget();
-                return;
-            }
-
             if (player.statectl.current_state == player.state_move)
             {
                 movement_location = player.transform.position;
+                return;
+            }
+
+            if (player.GetTarget())
+            {
+                player.ResetTarget();
                 return;
             }
         }
