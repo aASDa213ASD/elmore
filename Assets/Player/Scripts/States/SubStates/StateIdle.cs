@@ -23,7 +23,7 @@ public class StateIdle : StateGrounded
     {
         base.FrameUpdate();
         
-        if (Vector3.Distance(movement_location, player.transform.position) > player.state_move.destination_reached_distance)
+        if (Vector3.Distance(movement_location, player.transform.position) > player.state_move.stopping_distance)
             statectl.ChangeState(player.state_move);
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Player : Creature
 {
@@ -19,6 +20,10 @@ public class Player : Creature
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
+        navigation_agent = GetComponent<NavMeshAgent>();
+        navigation_agent.updateRotation = false;
+        navigation_agent.updateUpAxis = false;
+        
         statectl = new Statectl();
         state_idle = new StateIdle(this, statectl, data, "idle");
         state_move = new StateMove(this, statectl, data, "move");
@@ -63,7 +68,8 @@ public class Player : Creature
         if (statectl.current_state == state_move)
         {
             // Reset destination to make player stumble upon objects
-            input_handler.movement_location = transform.position;
+            //input_handler.movement_location = transform.position;
+            Move(input_handler.movement_location);
         }
     }
 }

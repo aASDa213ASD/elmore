@@ -21,14 +21,16 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Color  name_color     { get; private set; }
     public Color  title_color    { get; private set; }
 
-    protected bool is_hovered;
-    protected bool facing_direction;
-    protected Vector2 velocity;
-    protected OutlineFx.OutlineFx outline;
+    public NavMeshAgent navigation_agent;
 
     [SerializeField]
     public CreatureData data;
 
+    protected bool is_hovered;
+    protected bool facing_direction;
+    protected Vector2 velocity;
+    protected OutlineFx.OutlineFx outline;
+    
     private Player local_player;
 
     public virtual void Awake()
@@ -76,6 +78,14 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         Vector3 current_scale = gameObject.transform.localScale;
         current_scale.x *= -1;
         gameObject.transform.localScale = current_scale;
+    }
+
+    public void Move(Vector3 location)
+    {
+        //velocity.Set(x, y);
+        //rigid_body.velocity = velocity;
+        navigation_agent.speed = data.speed / 100;
+        navigation_agent.SetDestination(location);
     }
 
     public void Move(float x, float y)

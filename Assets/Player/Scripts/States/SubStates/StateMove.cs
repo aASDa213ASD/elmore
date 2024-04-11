@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StateMove : StateGrounded
 {
-    public float destination_reached_distance = 0.1f;
+    public float stopping_distance = 0.1f;
     public float move_point_dissapear_distance = 0.35f;
 
     private Vector3 move_point_position;
@@ -27,11 +27,11 @@ public class StateMove : StateGrounded
         base.FrameUpdate();
 
         if (player.GetTarget() && movement_location == player.GetTarget().transform.position)
-            destination_reached_distance = 0.35f;
+            stopping_distance = 0.5f;
         else
-            destination_reached_distance = 0.1f;
+            stopping_distance = 0.1f;
 
-        if (Vector3.Distance(movement_location, player.transform.position) > destination_reached_distance)
+        if (Vector3.Distance(movement_location, player.transform.position) > stopping_distance)
         {
             movement_direction = movement_direction.normalized;
 
@@ -40,11 +40,18 @@ public class StateMove : StateGrounded
             player.anim.SetFloat("direction_y", movement_direction.y);
 
             player.TryFlip(movement_direction);
-            
+
+            //player.navigation_agent.speed = data.speed / 100;
+            //player.navigation_agent.SetDestination(movement_location);
+            player.navigation_agent.stoppingDistance = stopping_distance;
+            player.Move(movement_location);
+
+            /*
             player.Move(
                 movement_direction.x * (data.speed / 100),
                 movement_direction.y * (data.speed / 100)
             );
+            */
         }
         else
         {
