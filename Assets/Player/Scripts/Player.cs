@@ -23,7 +23,7 @@ public class Player : Creature
         navigation_agent = GetComponent<NavMeshAgent>();
         navigation_agent.updateRotation = false;
         navigation_agent.updateUpAxis = false;
-        
+
         statectl = new Statectl();
         state_idle = new StateIdle(this, statectl, data, "idle");
         state_move = new StateMove(this, statectl, data, "move");
@@ -63,13 +63,16 @@ public class Player : Creature
         Debug.Log("Target: " + target);
     }
 
+    /*
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (statectl.current_state == state_move)
         {
             // Reset destination to make player stumble upon objects
+            //navigation_agent.ResetPath();
             //input_handler.movement_location = transform.position;
-            Move(input_handler.movement_location);
+            //Move(input_handler.movement_location);
         }
     }
+    */
 }
