@@ -74,12 +74,16 @@
     <Compile Include="Assets\Folk\Scripts\Folk.cs" />
     <Compile Include="Assets\Player\Scripts\States\SubStates\StateMove.cs" />
     <Compile Include="Assets\Common\Scripts\Creature.cs" />
+    <Compile Include="Assets\Common\Scripts\IDamagable.cs" />
     <Compile Include="Assets\Player\Scripts\States\SuperStates\StateGrounded.cs" />
     <Compile Include="Assets\Common\Scripts\Statectl.cs" />
+    <Compile Include="Assets\Common\Scripts\CharacterUI.cs" />
     <Compile Include="Assets\Common\Scripts\CreatureData.cs" />
+    <Compile Include="Assets\Player\Scripts\States\SubStates\StateDeath.cs" />
     <Compile Include="Assets\Player\Scripts\Player.cs" />
     <Compile Include="Assets\Monster\Scripts\Monster.cs" />
     <Compile Include="Assets\Player\Scripts\States\SubStates\StateSit.cs" />
+    <Compile Include="Assets\Common\Scripts\TargetUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -13,4 +13,6 @@ public class CreatureData : ScriptableObject
 
     [Header("Stats")]
     public float speed = 100f;
+    public float health_current = 100f;
+    public float health_max = 100f;
 }

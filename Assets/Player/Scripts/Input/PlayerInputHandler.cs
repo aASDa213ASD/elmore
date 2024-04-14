@@ -20,15 +20,10 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
-        /*
-        if (context.started)
-            movement_location = cam.ScreenToWorldPoint(mouse_position);
-        */
-
         if (context.started)
         {
             Ray ray = cam.ScreenPointToRay(mouse_position);
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, LayerMask.GetMask("Creatures"));
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, LayerMask.GetMask("Creatures", "UI"));
 
             if (hit.collider != null)
             {
@@ -76,6 +71,7 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
+    /*
     public void OnSitInput(InputAction.CallbackContext context)
     {
         if (context.started)
@@ -84,4 +80,5 @@ public class PlayerInputHandler : MonoBehaviour
         else if (context.canceled)
             sit_input = false;  
     }
+    */
 }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce10a84c66d502e45805f5f1ff96faf3, type: 3}
+  m_Name: Blackmarketer Data
+  m_EditorClassIdentifier: 
+  creature_name: Sirus
+  creature_title: Black Market
+  name_color: {r: 255, g: 255, b: 255, a: 1}
+  title_color: {r: 0.46666667, g: 1, b: 1, a: 1}
+  outline_hover_color: {r: 1, g: 1, b: 1, a: 1}
+  outline_target_color: {r: 1, g: 0.67, b: 0, a: 1}
+  speed: 100
+  health_current: 100
+  health_max: 100

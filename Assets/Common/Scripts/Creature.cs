@@ -62,12 +62,10 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             outline.Color = local_player.GetTarget() == this ? data.outline_target_color : data.outline_hover_color;
             outline.Alpha = local_player.GetTarget() == this ? 1f : 0.9f;
-            //outline.enabled = true;
         }
         else if (!is_hovered)
         {
             outline.Alpha = 0.1f;
-            //outline.enabled = false;
         }
     }
 
@@ -82,8 +80,6 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void Move(Vector3 location)
     {
-        //velocity.Set(x, y);
-        //rigid_body.velocity = velocity;
         navigation_agent.speed = data.speed / 100;
         navigation_agent.SetDestination(location);
     }

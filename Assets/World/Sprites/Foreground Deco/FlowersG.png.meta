@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 5592f1c25b916a64b99ec11aeb57f3a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 591955910076351931
+    second: FlowersG_0
+  - first:
+      213: 3981908608703661558
+    second: FlowersG_1
+  - first:
+      213: -9167625043329818002
+    second: FlowersG_2
+  - first:
+      213: 1913385672120061558
+    second: FlowersG_3
+  - first:
+      213: 8197887174863103935
+    second: FlowersG_4
+  - first:
+      213: 8013919515386676395
+    second: FlowersG_5
+  - first:
+      213: 5794551667523296356
+    second: FlowersG_6
+  - first:
+      213: -6772876635497461704
+    second: FlowersG_7
+  - first:
+      213: -7410815515700095926
+    second: FlowersG_8
+  - first:
+      213: -1278240872015946298
+    second: FlowersG_9
+  - first:
+      213: 7070496487851562630
+    second: FlowersG_10
+  - first:
+      213: -4600962667134257254
+    second: FlowersG_11
+  - first:
+      213: -718749938281436958
+    second: FlowersG_12
+  - first:
+      213: 2608221342306134300
+    second: FlowersG_13
+  - first:
+      213: -3136199729390587872
+    second: FlowersG_14
+  - first:
+      213: 1627796464755166588
+    second: FlowersG_15
+  - first:
+      213: 8933675485116837778
+    second: FlowersG_16
+  - first:
+      213: -1235509145833576255
+    second: FlowersG_17
+  - first:
+      213: 6402191232415576604
+    second: FlowersG_18
+  - first:
+      213: 8645344493505048629
+    second: FlowersG_19
+  - first:
+      213: -2166731338352205964
+    second: FlowersG_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 384
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

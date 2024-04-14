@@ -19,6 +19,10 @@ public class StateMove : StateGrounded
 
     public override void Exit()
     {
+        player.move_point_indicator.gameObject.SetActive(false);
+        player.navigation_agent.ResetPath();
+        player.Stop();
+
         base.Exit();
     }
 
@@ -38,20 +42,9 @@ public class StateMove : StateGrounded
             player.anim.speed = 1.0f * (data.speed / 100.0f);
             player.anim.SetFloat("direction_x", movement_direction.x);
             player.anim.SetFloat("direction_y", movement_direction.y);
-
             player.TryFlip(movement_direction);
-
-            //player.navigation_agent.speed = data.speed / 100;
-            //player.navigation_agent.SetDestination(movement_location);
             player.navigation_agent.stoppingDistance = stopping_distance;
             player.Move(movement_location);
-
-            /*
-            player.Move(
-                movement_direction.x * (data.speed / 100),
-                movement_direction.y * (data.speed / 100)
-            );
-            */
         }
         else
         {

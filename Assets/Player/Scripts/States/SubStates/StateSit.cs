@@ -33,6 +33,7 @@ public class StateSit : StateGrounded
     {
         base.FrameUpdate();
         
+        /*
         if (player.rigid_body.velocity != Vector2.zero)
             player.Stop();
         
@@ -44,5 +45,6 @@ public class StateSit : StateGrounded
 
         if (!player.anim.GetBool("sit") && Time.time > stand_up_time)
             statectl.ChangeState(player.state_idle);
+        */
     }
 }

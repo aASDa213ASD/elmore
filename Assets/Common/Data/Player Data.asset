@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce10a84c66d502e45805f5f1ff96faf3, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: 
-  creature_name: not_real
+  creature_name: SystemsDeathReason
   creature_title: 
   name_color: {r: 255, g: 255, b: 255, a: 1}
   title_color: {r: 0, g: 1, b: 1, a: 1}
   outline_hover_color: {r: 1, g: 1, b: 1, a: 1}
-  outline_target_color: {r: 1, g: 0.67, b: 0, a: 1}
-  speed: 200
+  outline_target_color: {r: 0.5, g: 0.29256985, b: 0, a: 1}
+  speed: 180
+  health_current: 250
+  health_max: 300
