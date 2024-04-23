@@ -9,10 +9,11 @@ using UnityEngine.UIElements;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.SocialPlatforms;
+using System;
 
 public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public MonoBehaviour target        { get; private set; }
+    public Creature      target        { get; private set; }
     public Animator      anim          { get; private set; }
     public Rigidbody2D   rigid_body    { get; private set; }
 
@@ -21,6 +22,7 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Color  name_color     { get; private set; }
     public Color  title_color    { get; private set; }
 
+     public event Action<Creature> OnTargetChanged;
     public NavMeshAgent navigation_agent;
 
     [SerializeField]
@@ -48,7 +50,7 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         anim          = GetComponent<Animator>();
         outline       = GetComponent<OutlineFx.OutlineFx>();
 
-        local_player = Player.Instance;
+        local_player = FindFirstObjectByType<Player>();
         facing_direction = true; // false -> left, true -> right
     }
 
@@ -105,14 +107,16 @@ public class Creature : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             Flip();
     }
 
-    public void SetTarget(MonoBehaviour creature)
+    public void SetTarget(Creature creature)
     {
         target = creature;
+        OnTargetChanged?.Invoke(target);
     }
 
     public void ResetTarget()
     {
         target = null;
+        OnTargetChanged?.Invoke(target);
     }
 
     public MonoBehaviour GetTarget()

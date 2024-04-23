@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8602079778550750644}
   - component: {fileID: 2440465088336196662}
   - component: {fileID: 2835209533323567726}
-  - component: {fileID: 6534814869146449956}
   - component: {fileID: 5102636057689370835}
   - component: {fileID: 8960152891810015010}
+  - component: {fileID: 6471935987530724496}
   m_Layer: 0
   m_Name: Bonfire
   m_TagString: Untagged
@@ -30,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5807893658708947330}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.0036160753, w: 0.9999935}
+  m_LocalRotation: {x: 0, y: 0, z: -0.0036128613, w: 0.9999935}
   m_LocalPosition: {x: 1.547, y: 1.417, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -1.811, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.414}
 --- !u!212 &8602079778550750644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -141,62 +141,9 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0058647385, y: -0.08664929}
-  m_Size: {x: 0.29903176, y: 0.20124763}
+  m_Offset: {x: 0.0058647385, y: 0.05}
+  m_Size: {x: 0.29903176, y: 0.29}
   m_Direction: 1
---- !u!114 &6534814869146449956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5807893658708947330}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_Priority: 0
-  m_ComponentVersion: 5
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_AlphaCutoff: 0.1
-  m_ApplyToSortingLayers: 000000005dfe1b5a4b4f6ec4039f1119
-  m_ShapePath:
-  - {x: -0.30246365, y: -0.0317809, z: -0.000000008845701}
-  - {x: -0.25782037, y: 0.32204813, z: 0.000000028728248}
-  - {x: 0.28014207, y: 0.29230106, z: 0.000000026984956}
-  - {x: 0.25038043, y: -0.23257399, z: 0.000000026553806}
-  - {x: -0.114983745, y: -0.15205526, z: -0.000000066386804}
-  m_ShapePathHash: 226868900
-  m_InstanceId: 0
-  m_ShadowShape2DComponent: {fileID: 0}
-  m_ShadowShape2DProvider:
-    rid: -2
-  m_ShadowCastingSource: 1
-  m_ShadowMesh:
-    m_Mesh: {fileID: 0}
-    m_LocalBounds:
-      m_Center: {x: -0.011160791, y: 0.04473707, z: 0}
-      m_Extent: {x: 0.29130286, y: 0.27731106, z: 0}
-    m_EdgeProcessing: 1
-    m_TrimEdge: 0.03
-    m_FlipX: 0
-    m_FlipY: 0
-    m_InitialTrim: 0
-  m_CastingOption: 2
-  m_PreviousTrimEdge: 0.03
-  m_PreviousEdgeProcessing: 1
-  m_PreviousShadowCastingSource: 1
-  m_PreviousShadowShape2DSource: {fileID: 2835209533323567726}
-  references:
-    version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
 --- !u!95 &5102636057689370835
 Animator:
   serializedVersion: 7
@@ -234,8 +181,8 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.617
-  m_Color: {r: 1, g: 0.5035199, b: 0.2688679, a: 1}
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 0.36862746, b: 0.3372549, a: 1}
   m_Intensity: 4.05
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
@@ -260,7 +207,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 2.5
+  m_PointLightOuterRadius: 4
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -271,3 +218,15 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &6471935987530724496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807893658708947330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7d3b9ea264d3e4a84c38fafe24d4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

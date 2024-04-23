@@ -1,9 +1,10 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Player : Creature, IDamagable
 {
-    public static Player Instance { get; private set; }
+    //public static Player Instance { get; private set; }
 
     public Statectl     statectl      { get; private set; }
     public StateIdle    state_idle    { get; private set; }
@@ -21,8 +22,8 @@ public class Player : Creature, IDamagable
     {
         base.Awake();
 
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        //if (Instance == null) Instance = this;
+        //else Destroy(gameObject);
 
         navigation_agent = GetComponent<NavMeshAgent>();
         navigation_agent.updateRotation = false;

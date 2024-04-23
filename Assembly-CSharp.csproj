@@ -79,6 +79,7 @@
     <Compile Include="Assets\Common\Scripts\Statectl.cs" />
     <Compile Include="Assets\Common\Scripts\CharacterUI.cs" />
     <Compile Include="Assets\Common\Scripts\CreatureData.cs" />
+    <Compile Include="Assets\World\Scripts\BonfireLightController.cs" />
     <Compile Include="Assets\Player\Scripts\States\SubStates\StateDeath.cs" />
     <Compile Include="Assets\Player\Scripts\Player.cs" />
     <Compile Include="Assets\Monster\Scripts\Monster.cs" />

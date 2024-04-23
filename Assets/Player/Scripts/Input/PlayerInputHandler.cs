@@ -27,7 +27,7 @@ public class PlayerInputHandler : MonoBehaviour
 
             if (hit.collider != null)
             {
-                MonoBehaviour creature = hit.collider.GetComponent<MonoBehaviour>();
+                Creature creature = hit.collider.GetComponent<Creature>();
                 if (creature != null)
                 {
                     if (player.GetTarget() != creature)
