@@ -503,11 +503,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 358
-        y: 32
+        y: 31
         width: 146
         height: 191
       alignment: 9
-      pivot: {x: 0.5001511, y: 0.19306594}
+      pivot: {x: 0.50062937, y: 0.21398182}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
